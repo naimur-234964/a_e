@@ -1,0 +1,19 @@
+#navbar {
+    .nav-link {
+
+        color: #000;
+        font-weight: 600;
+        margin: 0px 8px;
+        transition: .3s linear;
+
+        &.active {
+            color: #fff;
+            background-color: blue;
+        }
+
+        &:hover {
+            color: #fff;
+            background-color: blue;
+        }
+    }
+}
